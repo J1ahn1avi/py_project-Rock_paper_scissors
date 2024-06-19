@@ -15,7 +15,7 @@ while True:
 
         if user==bot:
             print('Its a tie,Try Again')
-        elif ((user=='rock' and bot=='scissors') or (user=='paper' and          bot=='rock') or (user=='scissors' and bot=='paper')) :
+        elif ((user=='rock' and bot=='scissors') or (user=='paper' and  bot=='rock') or (user=='scissors' and bot=='paper')) :
             print('Victory!')
             break
         else:
